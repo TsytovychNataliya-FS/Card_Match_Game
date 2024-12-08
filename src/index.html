@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.scss" />
+    <title>Card Match</title>
+  </head>
+  <body>
+    <div id="game-container">
+      <header>
+        <h1>Card Match</h1>
+        <p id="moveLeft">You have 3 attemps to match the cards. Good Luck!</p>
+        <p id="attemps">Attempts left: <span id="attempts">3</span></p>
+      </header>
+      <main>
+        <div id="card-grid"></div>
+        <div id="game-status" class="game-status"></div>
+      </main>
+      <footer>
+        <button id="restart-btn">Restart Game</button>
+      </footer>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

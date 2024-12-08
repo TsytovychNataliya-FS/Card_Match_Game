@@ -1,0 +1,27 @@
+{
+  "name": "cardgame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}

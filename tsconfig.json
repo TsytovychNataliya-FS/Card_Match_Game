@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/", // Output directory for compiled files
+    "module": "es6", // Specify module code generation
+    "target": "es6", // Specify ECMAScript target version
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "sourceMap": true, // Enable source map support
+    "strict": true // Enable strict type-checking options
+  },
+  "include": ["src/**/*"] // Include all files in the `src` folder
+}

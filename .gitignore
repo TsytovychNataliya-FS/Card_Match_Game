@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Build output
+build/
+dist/
+
+# Dependency directories
+jspm_packages/
+
+# System files
+.DS_Store
+Thumbs.db
